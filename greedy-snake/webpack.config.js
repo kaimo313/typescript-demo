@@ -9,7 +9,8 @@ module.exports = {
         filename: "bundle.js",
         // 不使用箭头函数
         environment: {
-            arrowFunction: false
+            arrowFunction: false,
+            const: false
         }
     },
     module: {
